@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+<link rel="stylesheet" href="./design/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+<div class="section-hero">
+  -- <div class="bg-card-back">
+    <img class="card-back" src="./images/bg-card-back.png" alt="card-back">
+     <p class="card-back-desc" id="card-back">000</p>
+  </div>
+  <div class="bg-card-front">
+
+    <img class="card-front" src="./images/bg-card-front.png" alt="card-front">
+    <span class="circle"></span>
+
+    <span class="small-circle"></span>
+  
+    <p class="card-front-zeros" id="card-front">0000 0000 0000 0000</p>
+    
+    <p class="card-front-text" id="card-front-texts">Jane Appleseed</p>
+    <p class="card-front-two-zero" id="card-front-descs">00/00</p>
+  </div>
+</div>
+<div class="section-form" id="second-section">
+    <div class="input-name">
+    <form action="">
+      <label for="Name">Cardholder Name</label>
+      <input type="text" name="" id="card-name" class="input-field" placeholder=" e.g. Jane Appleseed" minlength="1" max-length="14">
+      <p class="error"></p>
+    </form>
+    <div class="input-number">
+       <label for="Card Num">Card Number</label>
+      <input type="text" name="" id="card-num" class="input-field" placeholder="e.g. 1234 5678 9123 0000" minlength="1" maxlength="14">
+      <p class="error"></p>
+    </div>
+    <div class="input-date">
+      <label class="input-date-label" for="Exp.date">Exp. Date (MM/YY)  CVC</label>
+      <div class="inputs"> 
+        <div>
+      <input class="input-mm input-field" type="text" name="" id="card-monthly" class="input-field" placeholder=" MM" minlength="1" maxlength="2">
+      <p class="error"></p>
+        </div>
+        <div>
+      <input class="input-yy input-field" type="text" name="" id="card-daily" class="input-field" placeholder="YY" minlength="1" maxlength="2">
+      <p class="error"></p>
+      </div>
+      <div>
+      <input class="input-digits input-field" type="text" name="" id="card-digits"  placeholder=" e.g. 123" minlength="1" maxlength="3">
+      <p class="error"></p>
+      </div>
+      </div>
+    </div>
+    <div class="button">
+      <button class="btn" id="btn">Confirm</button>
+    </div> 
+   </div>
+</div>
+<section class="section-completed-state" id="pop-up">
+<div class="completed-state">
+  <div class="thank-you">
+    <img class="thank-you-img" src="./images/icon-complete.svg" alt="Thank-you images">
+  </div>
+  <div class="thank-you-desc">
+    <h1 class="thank-you-heading">Thank You!</h1>
+    <p class="thank-you-details">We've added your card details</p>
+  </div>
+  <div class="complete-button">
+    <button class="continue-btn" id="close-btn">Continue</button>
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+
+ </div>
+
+  </div> 
+  <!-- 0000 0000 0000 0000
+  
+  00/00
+
+  000
+
+  Cardholder Name
+  e.g. Jane Appleseed
+
+  Card Number
+  e.g. 1234 5678 9123 0000
+
+  Exp. Date (MM/YY)
+  MM
+  YY
+
+  CVC
+  e.g. 123 -->
+
+  <!-- Confirm
+
+   Completed state start -->
+
+  <!-- Thank you!
+  We've added your card details
+  Continue --> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ewherhe Akpesiri</a>.
+  </div>
+  <script src="./design/main.js"></script>
+</body>
+</html>
