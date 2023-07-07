@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive card details form solution
 
-This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/https://github.com/Akpcodes636/Bank-card). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [bank-card-eta.vercel.app]
 
 ## My process
 
@@ -48,17 +48,13 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+i mostly learnt some new javascript concept,like using getElementByClassName and how it works like an array and how to use it,i also learnt how to create like a pop-up box and i got reminded about max-length and min-length and i also went ahead to learn about luhn's algorithm and how it works with bank cards and i also did mobile-first although it didnt turn out all so great but i now have the experience
 
 To see how you can add code snippets, see below:
 
@@ -95,9 +91,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Akpesiri](bank-card-eta.vercel.app
+)
+- Frontend Mentor - [Akpcodes636](https://www.frontendmentor.io/profile/Akpcodes636)
+- Twitter - [@yourusername](https://www.twitter.com/https://twitter.com/bigRonNY65)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

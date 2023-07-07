@@ -120,5 +120,9 @@ closeBtn.addEventListener("click", () => {
   cardName.value="";
   cardDaily.value="";
   cardMonthly.value="";
+  cardBack.textContent = "000";
+  displayCardFront.textContent = "0000 0000 0000 0000";
+  cardText.textContent ="JANE APPLESEED";
+  cardDesc.textContent="00/00";
   });
 });

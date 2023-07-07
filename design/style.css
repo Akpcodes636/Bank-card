@@ -25,6 +25,9 @@ html{
     position: relative;
     
 }
+.CVC {
+    margin-left: 11.5rem;
+}
 .card-back {
    width: 70%;
    position: absolute;
@@ -323,5 +326,127 @@ padding: 18rem 30rem;
 }
 .continue-btn {
 padding: 1.1rem 1.6rem;
+}
+}
+/* Media query for mobile between 400px and 500px */
+@media (min-width: 400px) and (max-width: 500px) {
+    /* body {
+        /* background-color: red; */
+    } 
+    .card-back {
+        width: 72%;
+    }
+    .card-front {
+        position: relative;
+        /* background-color: black; */
+        width: 72%;
+        top: 13.9rem;
+    }
+    .card-front-two-zero {
+        position: absolute;
+        /* background-color: gold; */
+        /* font-size: 3rem; */
+        right: 12.5rem;
+        top:27rem;
+        font-size: 1.3rem;
+        /* bottom: 10rem; */
+    }
+    .card-front-text {
+        /* background-color: purple; */
+        top:27rem;
+        font-size:1.3rem;
+    }
+    .card-front-zeros {
+        top: 23rem;
+        left: 6.7rem;
+        font-size: 1.6rem;
+    }
+    .circle {
+        top: 17rem;
+        left: 6.7rem;
+    }
+    .small-circle {
+        top: 17.8rem;
+        left: 10rem;
+    }
+    .card-back-desc {
+        top: 12rem;
+        left: 35rem;
+        font-size: 1.5rem;
+        /* color: black; */
+    }
+    .section-form {
+        padding: 13rem 4rem;
+    }
+    .section-completed-state {
+        /* background-color: red; */
+        padding: 14rem 4rem;
+    }
+    .thank-you-heading {
+        font-size: 1.7rem;
+        margin: 1.5rem 13.5rem;
+        letter-spacing: 0.1rem
+    }
+    .thank-you-img {
+        margin-left: 15rem;
+    }
+    .thank-you-details {
+        margin: 1rem 6rem;
+        font-size: 1.7rem;
+    }
+}
+/* Media Query for screens between 500 and 800 */
+@media (min-width: 500px) and (max-width: 700px) {
+    /* body {
+        /* background-color: red; */
+    /* } */ 
+    .card-front {
+        top: 15.9rem;
+    }
+    .circle {
+        top: 19rem;
+    }
+    .small-circle {
+        top: 19.8rem;
+    }
+    .card-front-zeros {
+        top: 27rem;
+        font-size: 2.6rem;
+    }
+    .card-front-text {
+        /* background-color: blue; */
+        top:33rem;
+        font-size: 1.4rem;
+    }
+    .card-front-two-zero {
+        top:33rem;
+        left: 35.7rem;
+        /* color: black; */
+        font-size: 1.3rem;
+    }
+    .section-form {
+        padding: 17rem 4rem;
+    }
+    .card-back-desc {
+        /* background-color: red; */
+        top: 14rem;
+        font-size: 1.9rem;
+        left: 39rem;
+    }
+    .section-completed-state {
+        padding: 20rem 4rem;
+    }
+    .thank-you-img {
+        margin-left: 18rem;
+    }
+    .thank-you-heading {
+        font-size: 1.9rem;
+        margin: 1.5rem 16.5rem;
+    }
+    .thank-you-details {
+        font-size: 1.9rem;
+    }
+    .CVC {
+    margin-left: 18.5rem;
 }
 }
